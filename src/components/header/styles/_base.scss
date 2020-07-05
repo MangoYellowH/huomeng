@@ -1,7 +1,12 @@
 .header {
   background-color: $blue7;
+  @include shadow;
+
   .content {
+    margin: 0 auto;
     max-width: rem(1280);
     padding: rem(12);
+    display: flex;
+    justify-content: space-between;
   }
 }
