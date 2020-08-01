@@ -3,10 +3,12 @@
   @include shadow;
 
   .content {
+    height: 100%;
     margin: 0 auto;
     max-width: rem(1280);
-    padding: rem(12);
+    padding: rem(10) rem(16);
     display: flex;
     justify-content: space-between;
+    line-height: rem(32);
   }
 }

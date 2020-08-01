@@ -1000,10 +1000,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@mango-solution/mango-ui@^0.0.19":
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/@mango-solution/mango-ui/-/mango-ui-0.0.19.tgz#4d3877596e578510e3f7e47954355d60564f6ff9"
-  integrity sha512-tFYkJzNgN0bH27HvgWtHpwCxgzEdD1yiIQYrvIdUDMKA+CPy05h9PuiR9wa1EnNslXrNWyYIMQTY/hbKGQnXkg==
+"@mango-solution/mango-ui@^0.0.21":
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/@mango-solution/mango-ui/-/mango-ui-0.0.21.tgz#df42d9ab55b4403b61ec301a66873de51a3c6967"
+  integrity sha512-i/GX0xVaH1oEz9zzVD2tpVHlHwqIpjwAZrrBsJr28eUR+s8t6m7HO73Loue9EkMESsBlb+3W+gp+2qex9NWHNA==
   dependencies:
     "@types/draft-js" "^0.10.41"
     clsx "^1.1.1"

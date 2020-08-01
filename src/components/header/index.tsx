@@ -1,14 +1,13 @@
+import React from "react";
+import { Header as Base } from "@mango-solution/mango-ui";
+
 interface HeaderType {}
 
 const Header: React.FC<HeaderType> = ({}: HeaderType) => {
   return (
-    <div className="header">
-      <div className="content">
-        <div className="logo-area">Logo</div>
-        <div className="search-area">search</div>
-        <div className="right-area">right</div>
-      </div>
-    </div>
+    <Base>
+      <div>mock header</div>
+    </Base>
   );
 };
 
