@@ -11,10 +11,16 @@
     justify-content: space-between;
     line-height: rem(32);
 
-    .header-label {
+    .Banner {
       color: $sk-white;
       font-size: rem(32);
       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .right-login {
+      .Button {
+        margin: 0;
+      }
     }
   }
 }
