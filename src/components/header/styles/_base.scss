@@ -2,7 +2,7 @@
   background-color: $blue7;
   @include shadow;
 
-  .content {
+  .header-content {
     height: 100%;
     margin: 0 auto;
     max-width: rem(1280);
@@ -10,5 +10,11 @@
     display: flex;
     justify-content: space-between;
     line-height: rem(32);
+
+    .header-label {
+      color: $sk-white;
+      font-size: rem(32);
+      font-family: Arial, Helvetica, sans-serif;
+    }
   }
 }

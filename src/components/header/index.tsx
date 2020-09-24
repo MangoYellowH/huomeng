@@ -6,7 +6,7 @@ interface HeaderType {}
 const Header: React.FC<HeaderType> = ({}: HeaderType) => {
   return (
     <Base>
-      <div>mock header</div>
+      <div className="header-label">伙盟</div>
     </Base>
   );
 };
